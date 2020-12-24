@@ -6,7 +6,6 @@
   "scripts": {
     "test": "tap test.js"
   },
-  "private": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
