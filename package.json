@@ -1,5 +1,5 @@
 {
-  "name": "my-dependency-id-a",
+  "name": "@gvhinks/my-dependency-id-a",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
