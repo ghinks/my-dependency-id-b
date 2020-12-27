@@ -1,5 +1,9 @@
 {
   "name": "@gvhinks/my-dependency-id-a",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghinks/my-dependency-id-a.git"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
