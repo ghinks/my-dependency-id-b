@@ -175,7 +175,7 @@ jobs:
             npm run action-wiby-result || handle_result $?
           else
             npm install
-            npx wiby result || handle_result $?
+            npx @gvhinks/wiby result || handle_result $?
           fi
 
           # if we got here - there was no error
@@ -183,6 +183,7 @@ jobs:
 
         env:
           GITHUB_TOKEN: ${{ secrets.WIBY_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         id: wiby_result
 
       - name: Handle errors
