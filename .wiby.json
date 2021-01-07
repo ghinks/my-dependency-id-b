@@ -1,7 +1,7 @@
 {
   "dependents": [
     {
-      "repository": "https://github.com/ghinks/my-parent.git"
+      "repository": "https://github.com/ghinks/my-parent-2.git"
     }
   ]
 }
