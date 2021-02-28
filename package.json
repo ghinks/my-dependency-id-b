@@ -1,8 +1,8 @@
 {
-  "name": "@gvhinks/my-dependency-id-a",
+  "name": "@gvhinks/my-dependency-id-b",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ghinks/my-dependency-id-a.git"
+    "url": "https://github.com/ghinks/my-dependency-id-b.git"
   },
   "version": "1.0.0",
   "description": "",
@@ -14,7 +14,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tap": "^14.11.0",
-    "@gvhinks/wiby": "0.0.4"
+    "tap": "^14.11.0"
   }
 }
